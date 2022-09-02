@@ -1,5 +1,4 @@
 :root{
-    --color-primary: #ff7b02;
     /* =========Green theme========= */
     --color-primary: #ff7b02;
     --color-primary-variant: #e5a55d;
@@ -8,6 +7,11 @@
     --color-bg-3: #012734;
     --color-bg-4: #003347;
     --color-light:#85a2b2;
-    --color-
+    --color-white: hsl(0, 0%, 90%);
 
+    /* ========== Purple theme ========== */
+    --container-width-lg: 88%;
+    --container-width-md: 92%;
+
+    --transition: all 400ms ease;
 }
