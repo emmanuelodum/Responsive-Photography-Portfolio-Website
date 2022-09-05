@@ -42,3 +42,8 @@ h1, h2{
     line-height: 1.1;
     font-weight: 400;
 }
+
+h1{
+    font-size: 4rem;
+    color: var(--color-white);
+}
