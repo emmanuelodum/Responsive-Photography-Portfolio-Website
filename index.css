@@ -60,3 +60,9 @@ a{
 a:hover{
     color: var(--color-primary);
 }
+
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 216px;
+}
