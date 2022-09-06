@@ -64,11 +64,23 @@ a:hover{
 .container{
     width: var(--container-width-lg);
     margin: 0 auto;
-    max-width: 216px;
+    max-width: 2160px;
 }
 
 img{
     display: block;
     object-fit: cover;
     width: 100%;
+}
+
+/*========== nav ============= */
+nav{
+    height: 5rem;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
