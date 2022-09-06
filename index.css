@@ -95,3 +95,7 @@ nav{
 .nav__toggle-btn{
     display: none;
 }
+
+.nav__logo{
+    width: 7.5rem;
+}
