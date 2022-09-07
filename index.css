@@ -91,11 +91,16 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-
+/* only needs on tablets and phones */
 .nav__toggle-btn{
     display: none;
 }
 
 .nav__logo{
     width: 7.5rem;
+}
+
+.nav__links{
+    display: flex;
+    gap: 4rem;
 }
