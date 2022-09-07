@@ -120,3 +120,7 @@ nav{
     display: grid;
     place-items: center;
 }
+
+.nav__socials a:hover{
+    box-shadow: 0 1rem 1rem rgba(255, 255, 255, 0.4);
+}
