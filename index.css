@@ -72,8 +72,9 @@ img{
     object-fit: cover;
     width: 100%;
     border-radius: 50%;
-    /* aditional temporary */
+    /* aditional temporary,subject to change*/
     background: none;
+    background-color: #001e2d;
 }
 
 /*========== nav ============= */
