@@ -153,3 +153,10 @@ header{
     margin-top: 10rem;
     position: relative;
 }
+
+.header__image-bg{
+    background: var(--color-bg-4);
+    height: 22rem;
+    width: 16rem;
+    position: absolute;
+}
