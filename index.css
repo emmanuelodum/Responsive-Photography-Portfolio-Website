@@ -145,3 +145,11 @@ header{
     background: linear-gradient(var(--color-bg-3), var(--color-bg-1));
     overflow: hidden;
 }
+
+.header__container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+    margin-top: 10rem;
+    position: relative;
+}
