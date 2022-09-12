@@ -167,5 +167,13 @@ header{
     top: 1rem;
     left: 1rem;
     filter: saturate(0) brightness(0.3);
-    
+}
+
+.header__image-sm{
+    width: 28rem;
+    height: 28rem;
+    overflow: hidden;
+    position: absolute;
+    left: 6rem;
+    top: 6rem;
 }
