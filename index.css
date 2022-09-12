@@ -71,7 +71,6 @@ img{
     display: block;
     object-fit: cover;
     width: 100%;
-    border-radius: 50%;
 }
 
 /*========== nav ============= */
@@ -129,4 +128,20 @@ nav{
 
 .nav__socials a:hover{
     box-shadow: 0 1rem 1rem rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+
+
+
+/*========== header ============= */
+header{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    background: linear-gradient(var(--color-bg-3), var(--color-bg-1));
+    overflow: hidden;
 }
