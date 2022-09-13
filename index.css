@@ -190,3 +190,8 @@ header{
     top: 0;
     left: 0;
 }
+
+.header__head{
+    display: flex;
+    gap: 2rem;
+}
