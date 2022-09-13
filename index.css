@@ -194,6 +194,7 @@ header{
 .header__head{
     display: flex;
     gap: 2rem;
+    align-items: flex-start;
 }
 
 .empty{
