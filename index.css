@@ -176,4 +176,9 @@ header{
     position: absolute;
     left: 6rem;
     top: 6rem;
+    transition: var(--transition);
+}
+
+.header__left:hover .header__image-sm{
+    opacity: 0;
 }
