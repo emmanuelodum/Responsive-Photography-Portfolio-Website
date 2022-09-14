@@ -210,3 +210,8 @@ header{
 .header__tag{
     color: var(--color-primary-variant);
 }
+
+.header__right p{
+    margin-top: 2rem;
+    width: 85%;
+}
