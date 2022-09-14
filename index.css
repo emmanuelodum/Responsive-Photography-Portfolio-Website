@@ -215,3 +215,9 @@ header{
     margin-top: 2rem;
     width: 85%;
 }
+
+
+/* only shows on tablet and mobile phones */
+.header__btn-md{
+    display: none;
+}
