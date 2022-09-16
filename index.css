@@ -244,3 +244,7 @@ header{
     top: -2rem;
     left: 2rem;
 }
+
+.header__frames:hover .header__frame{
+    transform: rotate(0);
+}
