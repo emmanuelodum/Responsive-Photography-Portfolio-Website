@@ -238,3 +238,9 @@ header{
     transform-origin: bottom left;
     transition: var(--transition);
 }
+
+.header__frame:nth-child(2){
+    transform: rotate(20deg);
+    top: -2rem;
+    left: 2rem;
+}
