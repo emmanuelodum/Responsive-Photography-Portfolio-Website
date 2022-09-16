@@ -221,3 +221,10 @@ header{
 .header__btn-md{
     display: none;
 }
+
+.header__frames{
+    position: absolute;
+    top: 88vh;
+    right: 44rem;
+    transition: var(--transition);
+}
