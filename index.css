@@ -275,3 +275,9 @@ header{
     right: 6%;
     bottom: -3rem;
 }
+
+.header__btn:hover{
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3);
+    transform: translateY(-1rem);
+    color: var(--color-bg-1);
+}
