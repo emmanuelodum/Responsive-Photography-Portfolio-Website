@@ -265,3 +265,13 @@ header{
     cursor: pointer;
     transition: var(--transition);
 }
+
+.header__btn{
+    background: linear-gradient(-30deg, 
+    var(--color-primary-variant), 
+    var(--color-primary), 
+    var(--color-primary-variant));
+    position: absolute;
+    right: 6%;
+    bottom: -3rem;
+}
