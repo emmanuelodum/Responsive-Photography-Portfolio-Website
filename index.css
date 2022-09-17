@@ -281,3 +281,8 @@ header{
     transform: translateY(-1rem);
     color: var(--color-bg-1);
 }
+
+.contact__btn i{
+    font-size: 3.5rem;
+    position: absolute;
+}
