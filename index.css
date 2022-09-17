@@ -253,3 +253,15 @@ header{
     top: 0;
     left: 15rem;
 }
+
+/* general style for contact buttons */
+.contact__btn{
+    color: var(--color-bg-1);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
