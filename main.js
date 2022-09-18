@@ -5,3 +5,6 @@ window.addEventListener('scroll', () => {
         ('window-scrolled', window.
             scrollY > 0);
 })
+
+// CONTACT BUTTONS(circular text buttons)
+const textButtons = document.querySelectorAll('.contact__btn');
