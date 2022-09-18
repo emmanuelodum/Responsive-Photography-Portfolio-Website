@@ -292,4 +292,11 @@ header{
     font-weight: 600;
     width: 10rem;
     height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact__btn p span{
+    position: absolute;
+    transform-origin: 0.3rem 5rem;
 }
