@@ -312,3 +312,7 @@ header{
 #about{
     margin-top: 18rem;
 }
+
+.about__container{
+    display: grid;
+}
