@@ -316,4 +316,6 @@ header{
 .about__container{
     display: grid;
     grid-template-columns: 10rem 26rem auto;
+    gap: 3rem;
+    position: relative;
 } 
