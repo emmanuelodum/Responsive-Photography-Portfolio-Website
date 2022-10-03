@@ -339,3 +339,11 @@ header{
 .about__image{
     position: relative;
 }
+
+.about__image-bg{
+    width: 16rem;
+    height: 24rem;
+    position: absolute;
+    bottom: 0;
+    background: var(--color-bg-4);
+}
