@@ -325,3 +325,8 @@ header{
     top: -7rem;
     z-index: 1;
 }
+
+.about__btn{
+    color: var(--color-primary-variant);
+    align-self: end;
+}
