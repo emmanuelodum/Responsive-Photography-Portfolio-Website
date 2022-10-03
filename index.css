@@ -319,3 +319,9 @@ header{
     gap: 3rem;
     position: relative;
 } 
+
+.about__title{
+    position: absolute;
+    top: -7rem;
+    z-index: 1;
+}
