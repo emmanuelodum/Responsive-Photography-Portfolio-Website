@@ -335,3 +335,7 @@ header{
     transform: translateY(-1rem);
     color: var(--color-primary);
 }
+
+.about__image{
+    position: relative;
+}
