@@ -347,3 +347,11 @@ header{
     bottom: 0;
     background: var(--color-bg-4);
 }
+
+.about__image-lg{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+    filter: saturate(0) brightness(0.3);
+    transition: 500ms ease;
+}
