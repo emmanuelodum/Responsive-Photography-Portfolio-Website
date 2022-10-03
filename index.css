@@ -330,3 +330,8 @@ header{
     color: var(--color-primary-variant);
     align-self: end;
 }
+
+.about__btn:hover{
+    transform: translateY(-1rem);
+    color: var(--color-primary);
+}
