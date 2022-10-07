@@ -388,3 +388,12 @@ header{
 }
 
 /*========== gallery ============= */
+
+#gallery{
+    margin-top: 12rem;
+}
+
+.gallery__head{
+    display: flex;
+    justify-content: space-between;
+}
