@@ -14,3 +14,13 @@ textButtons.forEach(textButton => {
 
     text.innerHTML = text.innerHTML.split('').map((character, index) => `<span style="transform: rotate(${index * 12}deg)">${character}</span>`).join('')
 })
+
+// swipper (js gallery section)
+var swiper = new Swiper(".myswiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
