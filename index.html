@@ -9,6 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- swipperjs cdn -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/[email protected]/swiper-bundle.min.css"
+    />
     <!-- stylesheet -->
     <link rel="stylesheet" href="index.css" />
     <!-- iconscout cdn -->
@@ -146,7 +151,7 @@
     <!--====================== END OF ABOUT======================  -->
 
     <section id="gallery">
-      <div class="container gallery__container">
+      <div class="container gallery__container swiper myswiper">
         <div class="gallery__head">
           <h2 class="gallery__title">My Gallery</h2>
           <div class="empty gallery__empty"></div>
@@ -156,9 +161,41 @@
           quod voluptas veniam accusamus provident quidem temporibus sint aut ex
           magnam?
         </p>
+        <div class="swiper-wrapper">
+          <article class="swiper-slide">
+            <img src="./image/photo 1.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./image/photo 1.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./image/photo 1.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./image/photo 1.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./image/photo 1.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./image/photo 1.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./image/photo 1.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./image/photo 1.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./image/photo 1.jpg" alt="" />
+          </article>
+        </div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
+    <!--====================== END OF GALLERY======================  -->
 
+    <script src="https://unpkg.com/[email protected]/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
