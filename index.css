@@ -424,3 +424,7 @@ header{
     filter: saturate(0);
     transition: var(--transition);
 }
+
+.swiper-slide:hover img{
+    filter: saturate(1);
+}
