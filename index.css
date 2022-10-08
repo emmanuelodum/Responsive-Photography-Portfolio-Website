@@ -407,3 +407,11 @@ header{
     height: 37rem;
     padding-bottom: 5rem;
 }
+
+.swiper-slide{
+    border: 0.5rem solid var(--color-bg-4);
+    height: fit-content;
+    max-width: 36rem;
+    overflow: hidden;
+    transition: var(--transition);
+}
