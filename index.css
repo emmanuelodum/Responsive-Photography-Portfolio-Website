@@ -428,3 +428,7 @@ header{
 .swiper-slide:hover img{
     filter: saturate(1);
 }
+
+.swiper-pagination-bullet{
+    background: var(--color-primary);
+}
