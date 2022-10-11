@@ -438,3 +438,7 @@ header{
 #exhibitions{
     margin-top: 10rem;
 }
+
+.exhibitions__container{
+    position: relative;
+}
