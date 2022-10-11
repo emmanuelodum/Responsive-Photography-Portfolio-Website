@@ -442,3 +442,10 @@ header{
 .exhibitions__container{
     position: relative;
 }
+
+.exhibitions__empty{
+    width: 26rem;
+    position: absolute;
+    right: 14rem;
+    top: 0;
+}
