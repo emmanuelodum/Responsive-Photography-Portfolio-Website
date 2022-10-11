@@ -456,3 +456,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
+.exhibitions__head > p{
+    width: 45rem;
+}
