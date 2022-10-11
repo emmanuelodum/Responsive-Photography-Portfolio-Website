@@ -464,3 +464,7 @@ header{
 .exhibitions__btn{
     color: var(--color-primary-variant);
 }
+
+.exhibitions__btn:hover{
+    transform: translateY(-1rem);
+}
