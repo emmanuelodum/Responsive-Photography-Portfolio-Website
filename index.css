@@ -460,3 +460,7 @@ header{
 .exhibitions__head > p{
     width: 45rem;
 }
+
+.exhibitions__btn{
+    color: var(--color-primary-variant);
+}
