@@ -449,3 +449,10 @@ header{
     right: 14rem;
     top: 0;
 }
+
+.exhibitions__head{
+    display: grid;
+    grid-template-columns: auto 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
