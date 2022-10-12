@@ -532,3 +532,8 @@ footer{
     align-items: center;
     transition: var(--transition);
 }
+
+.footer__btn:hover{
+    transform: translateY(-1rem);
+    border-color: var(--color-primary);
+}
