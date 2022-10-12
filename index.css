@@ -513,3 +513,9 @@ footer{
     border-top: 0.5rem solid var(--color-bg-4);
     padding-top: 5rem;
 }
+
+.footer__head{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
