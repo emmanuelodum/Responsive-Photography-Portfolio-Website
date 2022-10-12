@@ -503,3 +503,13 @@ header{
 .exhibitions__gallery article:hover{
     box-shadow: 0 4rem 4rem rgba(0, 0, 0, 0.5);
 }
+
+/*========== footer ============= */
+footer{
+    margin-top: 7rem;
+}
+
+.footer__container{
+    border-top: 0.5rem solid var(--color-bg-4);
+    padding-top: 5rem;
+}
