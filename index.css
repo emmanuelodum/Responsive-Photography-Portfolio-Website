@@ -519,3 +519,16 @@ footer{
     align-items: center;
     gap: 2rem;
 }
+
+.footer__btn{
+    width: 5rem;
+    height: 5rem;
+    border: 0.2rem solid var(--color-primary-variant);
+    border-radius: 50%;
+    font-size: 3rem;
+    color: var(--color-primary-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition);
+}
