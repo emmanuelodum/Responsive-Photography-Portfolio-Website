@@ -537,3 +537,10 @@ footer{
     transform: translateY(-1rem);
     border-color: var(--color-primary);
 }
+
+.footer__links{
+    margin: 3rem 0 5rem;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
