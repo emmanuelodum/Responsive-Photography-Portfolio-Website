@@ -560,5 +560,14 @@ footer{
     h2{
         font-size: 2.5rem;
     }
+
+    /* nav */
+    .nav__socials{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+    }
 }
     
