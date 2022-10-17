@@ -625,4 +625,14 @@ footer{
     #nav__toggle-close{
         display: none;
     }
+
+    /* header */
+    header{
+        height: fit-content;
+        padding: 14rem 0 12rem;
+    }
+
+    .header__image-bg, .header__image-sm{
+        display: none;
+    }
 }
