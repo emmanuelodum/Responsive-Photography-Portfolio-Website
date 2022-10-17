@@ -627,6 +627,7 @@ footer{
     }
 
     /* header */
+
     header{
         height: fit-content;
         padding: 14rem 0 12rem;
@@ -634,5 +635,120 @@ footer{
 
     .header__image-bg, .header__image-sm{
         display: none;
+        /* display: grid; */
+        place-items: center;
     }
+
+    .header__container{
+        grid-template-columns: 40% 54%;
+        gap: 6%;
+        margin: 0;
+    }
+
+    .header__image-lg{
+        filter: saturate(1) brightness(1);
+        border: 1rem solid var(--color-bg-2);
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .empty{
+        display: none;
+    }
+
+    .header__tag{
+        margin-bottom: 1rem;
+    }
+
+    .header__right p{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .header__frames, .contact__btn{
+        display: none;
+    }
+
+    .header__btn-md{
+        background: linear-gradient(135deg, 
+        var(--color-primary-variant), 
+        var(--color-primary));
+        color: var(--color-bg-1);
+        margin-top: 2rem;
+        display: inline-block;
+        padding: 0.6rem 1.6rem;
+        font-weight: 600;
+        border-radius: 0.3rem;
+    }
+
+    .header__btn-md:hover{
+        color: var(--color-bg-1);
+    }
+
+    /* about */
+
+    .about__container{
+        grid-template-columns: 40% 54%;
+        gap: 6%;
+    }
+
+    .about__image-bg, .about__image-sm{
+        display: none;
+    }
+
+    .about__image-lg{
+        left: 0;
+        top: 0;
+        filter: saturate(1) brightness(1);
+    }
+
+    .about__image:hover .about__image-lg{
+        border: none;
+    }
+
+    .about__right{
+        margin: 0;
+    }
+
+    .about__right p{
+        margin-bottom: 1rem;
+    }
+
+    /* gallery */
+
+    #gallery{
+        margin-top: 8rem;
+    }
+
+    .gallery__container p{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .swiper-wrapper{
+        margin-top: 4rem;
+        height: fit-content;
+    }
+
+    /* exhibitions */
+
+    .exhibitions__head > p{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .exhibitions__gallery{
+        margin-top: 3rem;
+        gap: 1rem;
+    }
+
+    .exhibitions__gallery article{
+        border: none;
+    }
+}
+
+/* media queries (small screens) */
+@media screen and (max-width: 600px){
+    
 }
