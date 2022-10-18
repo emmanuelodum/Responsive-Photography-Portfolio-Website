@@ -779,4 +779,48 @@ footer{
     .header__head{
         justify-content: center;
     }
+
+    .header__right p{
+        margin-top: 1rem;
+    }
+
+    .header__title{
+        margin-top: 1rem;
+    }
+
+    /* about */
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .about__right p{
+        width: 100%;
+    }
+
+    .swiper-slide{
+        border: 0;
+    }
+
+    /* gallery */
+    #gallery{
+        margin-top: 6rem;
+    }
+
+    .gallery__container p{
+        margin-top: 1rem;
+    }
+
+    .swiper-wrapper{
+        margin-top: 1rem;
+    }
+
+    /* exhibitions */
+    #exhibitions{
+        margin-top: 6rem;
+    }
+
+    .exhibitions__head{
+        grid-template-columns: 1fr;
+    }
 }
