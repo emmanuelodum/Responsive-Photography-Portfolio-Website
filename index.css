@@ -823,4 +823,18 @@ footer{
     .exhibitions__head{
         grid-template-columns: 1fr;
     }
+
+    .exhibitions__head > p{
+        margin-top: 1rem;
+    }
+
+    .exhibitions__gallery{
+        display: block;
+    }
+
+    .exhibitions__gallery article{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 1rem;
+    }
 }
