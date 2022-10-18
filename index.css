@@ -27,6 +27,17 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: rgba(229, 165, 93, 0.2);
+}
+
+::-webkit-scrollbar-thumb{
+    width: 100%;
+    background: var(--color-primary-variant);
+    border-radius: 0.25rem;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -630,7 +641,9 @@ footer{
 
     header{
         height: fit-content;
-        padding: 14rem 0 12rem;
+        padding: 12rem 0 10rem;
+        display: grid;
+        place-items: center;
     }
 
     .header__image-bg, .header__image-sm{
@@ -651,6 +664,8 @@ footer{
         width: 100%;
         top: 0;
         left: 0;
+        border-radius: 15rem 15rem 0 0;
+        overflow: hidden;
     }
 
     .empty{
