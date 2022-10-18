@@ -837,4 +837,19 @@ footer{
         height: fit-content;
         margin-bottom: 1rem;
     }
+
+    /* footer */
+    .footer__head{
+        flex-direction: column;
+    }
+
+    .footer__head h2{
+        font-size: 1.5rem;
+    }
+
+    .footer__links{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 5rem;
+    }
 }
