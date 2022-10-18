@@ -760,4 +760,19 @@ footer{
         padding: 0;
         padding-bottom: 6rem;
     }
+
+    .header__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .header__image-lg{
+        width: 80%;
+        height: 20rem;
+        margin: 0 auto;
+        margin-top: 7rem;
+        overflow: hidden;
+        border-radius: 15rem 15rem 0 0;
+    }
 }
