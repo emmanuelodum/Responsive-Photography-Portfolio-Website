@@ -161,7 +161,7 @@ header{
     display: grid;
     grid-template-columns: 42% 52%;
     gap: 6%;
-    margin-top: 10rem;
+    margin-top: 7rem;
     position: relative;
 }
 
